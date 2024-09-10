@@ -12,7 +12,9 @@ parameters = [
   { name= "dev.user.mongo_url", value = "mongodb://mongodb-dev.devjsr1.online:27017/users" },
   { name= "dev.cart.redis_host", value = "redis-dev.devjsr1.online" },
   { name= "dev.cart.catalogue_host", value = "catalogue-dev.devjsr1.online" },
-  { name= "dev.cart.catalogue_port", value = "8080" }
+  { name= "dev.cart.catalogue_port", value = "8080" },
+  { name= "dev.shipping.cart_endpoint", value = "cart-dev.devjsr1.online:8080" },
+  { name= "dev.shipping.db_host", value = "mysql-dev.devjsr1.online" }
 ]
 
 
@@ -26,3 +28,6 @@ parameters = [
 //Environment=REDIS_HOST=redis-dev.devjsr1.online
 //Environment=CATALOGUE_HOST=catalogue-dev.devjsr1.online
 //Environment=CATALOGUE_PORT=8080
+
+//Environment=CART_ENDPOINT=cart-dev.devjsr1.online:8080
+//Environment=DB_HOST=mysql-dev.devjsr1.online
