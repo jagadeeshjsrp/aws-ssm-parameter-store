@@ -21,12 +21,12 @@ parameters = [
   { name= "dev.payment.user_host", value = "user-dev.devjsr1.online" },
   { name= "dev.payment.user_port", value = "8080" },
   { name= "dev.payment.amqp_host", value = "rabbitmq-dev.devjsr1.online" },
-  { name= "dev.payment.amqp_pass", value = "roboshop" }
+  { name= "dev.payment.amqp_user", value = "roboshop" }
 ]
 
 passwords = [
-  { name= "dev.payment.amqp_user", value = "roboshop123" },
-  { name= "dev.shipping.db_pass", value = "RoboShop@1" },
+  { name= "dev.payment.amqp_pass", value = "roboshop123" },
+  { name= "dev.shipping.db_pass", value = "RoboShop@1" }
 ]
 //Environment=MONGO=true
 //Environment=REDIS_HOST=redis-dev.devjsr1.online
