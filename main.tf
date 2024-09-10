@@ -7,7 +7,7 @@ resource "aws_ssm_parameter" "Parameter" {
 }
 
 ## Passwords are not at all meant to keep inside the code at all, Here since it is a lab we are doing it to save the time.
-
+## One of the scenerio that mostly used in real way is, Enter the passwords manually in Parameter Store by someone for Passwords.
 
 
 
